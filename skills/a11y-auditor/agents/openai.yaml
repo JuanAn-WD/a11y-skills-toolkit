@@ -1,0 +1,4 @@
+interface:
+  display_name: 'A11y Auditor'
+  short_description: 'Scan real routes for WCAG 2.2 AA issues, read-only'
+  default_prompt: 'Use $a11y-auditor to start the dev server, scan the main routes with Playwright and axe-core, run keyboard and reflow checks, and report Pass / Fail / Not tested per WCAG 2.2 AA criterion.'

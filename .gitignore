@@ -1,0 +1,8 @@
+node_modules/
+a11y-report/
+test-results/
+playwright-report/
+*.storageState.json
+storageState*.json
+.auth/
+.DS_Store

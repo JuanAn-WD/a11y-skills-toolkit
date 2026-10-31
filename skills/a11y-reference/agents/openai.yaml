@@ -1,0 +1,4 @@
+interface:
+  display_name: 'A11y Reference'
+  short_description: 'WCAG 2.2 AA checklist, APG patterns, scanner'
+  default_prompt: 'Use $a11y-reference to explain what this WCAG 2.2 criterion requires and the correct ARIA pattern for this component.'

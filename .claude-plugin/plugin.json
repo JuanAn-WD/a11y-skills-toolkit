@@ -1,0 +1,10 @@
+{
+  "name": "a11y-skills-toolkit",
+  "version": "0.1.0",
+  "description": "Frontend accessibility skills: audit real routes (WCAG 2.2 AA), fix in your stack, re-scan to prove it, add a Playwright + axe regression test.",
+  "author": { "name": "OWNER" },
+  "homepage": "https://github.com/OWNER/REPO",
+  "repository": "https://github.com/OWNER/REPO",
+  "license": "MIT",
+  "keywords": ["accessibility", "a11y", "wcag", "axe-core", "playwright"]
+}

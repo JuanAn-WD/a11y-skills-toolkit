@@ -1,0 +1,4 @@
+interface:
+  display_name: 'A11y Implementer'
+  short_description: 'Fix or build accessible UI in your stack and prove it'
+  default_prompt: 'Use $a11y-implementer to fix the accessibility issues in this component in our existing stack, keep the design, re-scan to prove each fix, and offer a Playwright regression test.'

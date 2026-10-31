@@ -1,0 +1,14 @@
+{
+  "name": "a11y-skills-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skills for frontend accessibility: audit, fix, verify, regression-test (WCAG 2.2 AA).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "test:scanner": "bash test/run-scanner-test.sh",
+    "test": "npm run validate && npm run test:scanner"
+  },
+  "engines": { "node": ">=18" }
+}

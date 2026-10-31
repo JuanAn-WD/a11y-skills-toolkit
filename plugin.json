@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "a11y-skills-toolkit",
+  "version": "0.1.0",
+  "description": "Agent skills for frontend accessibility: audit real routes against WCAG 2.2 AA, fix issues in the existing stack, re-scan to prove the fix, and add a Playwright + axe regression test.",
+  "author": { "name": "OWNER" },
+  "homepage": "https://github.com/OWNER/REPO",
+  "repository": "https://github.com/OWNER/REPO",
+  "license": "MIT",
+  "keywords": ["accessibility", "a11y", "wcag", "axe-core", "playwright", "frontend"],
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "A11y Skills Toolkit",
+        "shortDescription": "Audit, fix and regression-test web accessibility (WCAG 2.2 AA)",
+        "longDescription": "Three skills: a11y-auditor (read-only audit of real routes with Playwright + axe-core and manual checks), a11y-implementer (accessible fixes in React, Vue, Angular, Svelte, Tailwind or plain HTML, verified by re-scanning), and a11y-reference (WCAG 2.2 AA checklist, ARIA patterns, report format, scanner and test template).",
+        "developerName": "OWNER",
+        "category": "Developer Tools",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/OWNER/REPO",
+        "defaultPrompt": ["Audit the main routes of this app for WCAG 2.2 AA accessibility issues"]
+      }
+    }
+  }
+}

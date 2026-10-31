@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>Dialog pattern</title></head>
+<body>
+  <main>
+    <h1>Dialog pattern</h1>
+    <button type="button" id="open-settings">Settings</button>
+    <dialog id="settings" aria-labelledby="settings-title">
+      <h2 id="settings-title">Settings</h2>
+      <form method="dialog">
+        <label for="name">Display name</label>
+        <input id="name" name="name" autocomplete="nickname" autofocus />
+        <button value="cancel">Cancel</button>
+        <button value="save">Save</button>
+      </form>
+    </dialog>
+  </main>
+  <script>
+    const trigger = document.getElementById('open-settings');
+    const dialog = document.getElementById('settings');
+    trigger.addEventListener('click', () => dialog.showModal());
+  </script>
+</body>
+</html>
